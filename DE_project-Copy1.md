@@ -4,7 +4,8 @@
 
 # The Architecture  👇
 
-![DE%20project%20architecrure%20diagram.png](attachment:DE%20project%20architecrure%20diagram.png)
+![DE project architecrure diagram](https://github.com/DURGESH99P/DataEngineering-Projects/assets/94096617/6c5bea9e-6c56-4b78-a27c-8fb69fb02de9)
+
 
 # Create an S3 bucket for the project 
 
