@@ -15,17 +15,19 @@
 # Upload the Data to the bucket
 ### **data was taken from covid-19 data lake:** https://dj2taa9i652rf.cloudfront.net/
 
-![2.png](attachment:2.png)
+![2](https://github.com/DURGESH99P/DataEngineering-Projects/assets/94096617/9bb46d7a-bf67-4d45-b238-0594ae5694df)
+
 
 ---
 
 # Create IAM Role for Glue crawler
 
-![iam8.png](attachment:iam8.png)
+![iam8](https://github.com/DURGESH99P/DataEngineering-Projects/assets/94096617/aeedfb15-0e93-42d3-b8f2-6bb3a26f7f1f)
+
 
 ## **Below 👇image demonstrates the policies attached to the role**
 
-![iam9.png](attachment:iam9.png)
+![iam9](https://github.com/DURGESH99P/DataEngineering-Projects/assets/94096617/d41eb71b-1bbf-4a87-b079-1f6470e5b94f)
 
 ---
 
@@ -33,48 +35,59 @@
 
 ## 1. Set crawlers Properties
 
-![3.png](attachment:3.png)
+![3](https://github.com/DURGESH99P/DataEngineering-Projects/assets/94096617/3d0cf26c-68e0-4607-b000-2d3e6c189124)
+
 
 ## 2. Add Data source 
 
-![4.png](attachment:4.png)
+![4](https://github.com/DURGESH99P/DataEngineering-Projects/assets/94096617/46aaa6b6-4b45-4a27-8460-0bd1a27e8674)
+
 
 ## Below 👇image demonstrates the selection of datasource for the dataset enigma-jhud
 ### *Note: choose the folder of the dataset not the dataset file*
 
-![5.png](attachment:5.png)
+![5](https://github.com/DURGESH99P/DataEngineering-Projects/assets/94096617/33f938fc-c40c-451c-98e0-095fab65f8cb)
+
 
 ## 3. Choose the option crawl all the sub-folders in the Subsequent crawler runs
 
-![6.png](attachment:6.png)
+![6](https://github.com/DURGESH99P/DataEngineering-Projects/assets/94096617/38d0391a-b8d6-4041-b3e4-683ea3153c34)
+
 
 ## 4. Configure the security settings and select IAM role you have created for Glue crawler
 
-![7.png](attachment:7.png)
+![7](https://github.com/DURGESH99P/DataEngineering-Projects/assets/94096617/729336ee-b67c-4867-b53a-985bf229b46c)
+
 
 ## Below image 👇 shows the IAM role attached
 
-![10.png](attachment:10.png)
+![10](https://github.com/DURGESH99P/DataEngineering-Projects/assets/94096617/3c4e8a88-28fe-40c5-a020-0e87d1224782)
+
 
 ## 5. Choose option "Add database" to create database
 
-![11.png](attachment:11.png)
+![11](https://github.com/DURGESH99P/DataEngineering-Projects/assets/94096617/636e4462-a42f-4d1a-a6d9-723472894223)
+
 
 ## Give the database name and choose option "Create database" 
 
-![12.png](attachment:12.png)
+![12](https://github.com/DURGESH99P/DataEngineering-Projects/assets/94096617/40105537-86dc-4291-9a8f-c40a2042ed71)
+
 
 ## 6. Choose option next and Create the crawler
 
-![13.png](attachment:13.png)
+![13](https://github.com/DURGESH99P/DataEngineering-Projects/assets/94096617/92b51ba7-8271-47b7-b14a-f699442ebd79)
+
 
 ## 7. After successful creation run the crawler
 
-![14.png](attachment:14.png)
+![14](https://github.com/DURGESH99P/DataEngineering-Projects/assets/94096617/afe87911-3ca4-47d9-8cb8-e61f76bb106d)
+
 
 ## Similarly create crawlers for all the datasets and run them
 
-![all%20crawlers.png](attachment:all%20crawlers.png)
+![all crawlers](https://github.com/DURGESH99P/DataEngineering-Projects/assets/94096617/7daf95a2-295a-4f1e-b496-cc0950e8f040)
+
 
 ---
 
@@ -82,7 +95,8 @@
 ## • Go to Manage settings in query editor and add the location of S3 bucket you want to store the query results
 ###  *Note: You have to create a bucket to store the query result data as shown in the image and add create a folder named "output" for the query responses and "packages" for storing redshift-connector .whl library file later in it*
 
-![Athena1.png](attachment:Athena1.png)
+![Athena1](https://github.com/DURGESH99P/DataEngineering-Projects/assets/94096617/e79f2eb8-fe88-4318-8c22-1516a3f50583)
+
 
 ---
 
@@ -2526,23 +2540,28 @@ IGNOREHEADER 1
 
 ## • Create job with Python Shell script editor
 
-![create%20glue%20jobs.png](attachment:create%20glue%20jobs.png)
+![glue jobs](https://github.com/DURGESH99P/DataEngineering-Projects/assets/94096617/bb5d0421-47c8-4775-8dc1-353a53cb887b)
+
 
 ## • Enter the location/URI of the libraryfile Glue job will use this library to perform code operations.
 
-![Glue%20in_jobdetails&advanced_properties%20add%20path%20of%20s3%20bucket%20object%20or%20URI.png](attachment:Glue%20in_jobdetails&advanced_properties%20add%20path%20of%20s3%20bucket%20object%20or%20URI.png)
+![Glue in_jobdetails advanced_properties add path of s3 bucket object or URI](https://github.com/DURGESH99P/DataEngineering-Projects/assets/94096617/54899af0-6da2-40f0-98a0-7a13a3f99f34)
+
 
 ## • Save and Run the Script
 
-![Glue%20write%20python%20script%20in%20script%20option.png](attachment:Glue%20write%20python%20script%20in%20script%20option.png)
+![Glue write python script in script option](https://github.com/DURGESH99P/DataEngineering-Projects/assets/94096617/12765018-4d2b-4775-af65-7d8cdb47317a)
+
 
 ## After successful Run you will see below 👇 result
 
-![Glue%20run%20successful.png](attachment:Glue%20run%20successful.png)
+![Glue run successful](https://github.com/DURGESH99P/DataEngineering-Projects/assets/94096617/43c5f115-8d08-44f6-a2d0-e0ca7febbaad)
+
 
 ## Below Image shows the query is successful in creating the tables inside the Redshift cluster database
 
-![script%20added%20tables%20to%20redshift.png](attachment:script%20added%20tables%20to%20redshift.png)
+
+![script![script added tables to redshift](https://github.com/DURGESH99P/DataEngineering-Projects/assets/94096617/8ce7825e-010b-438e-ab85-0869ed3e865f)
 
 <span style ="font-weight:400;font-size:17px">
 <body>
