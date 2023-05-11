@@ -4,11 +4,13 @@
 
 # The Architecture  👇
 
-![DE%20project%20architecrure%20diagram.png](attachment:DE%20project%20architecrure%20diagram.png)
+![DE project architecrure diagram](https://github.com/DURGESH99P/DataEngineering-Projects/assets/94096617/0af7fe22-a250-41f3-a786-4257122964bc)
+
 
 # Create an S3 bucket for the project 
 
-![1.png](attachment:1.png)
+![1](https://github.com/DURGESH99P/DataEngineering-Projects/assets/94096617/5c7b14ed-cf9c-4cfb-8221-6f0f644b60c3)
+
 
 # Upload the Data to the bucket
 ### **data was taken from covid-19 data lake:** https://dj2taa9i652rf.cloudfront.net/
