@@ -1411,20 +1411,24 @@ state_abvstate_abv.to_csv("state_abvstate_abv",index=False)
 ---
 
 # Create Data model from the datasets
-
-
-```python
-
-```
-
+<span style ="font-weight:400;font-size:17px">
+<body>
+    <p><b> A data model is an abstract model that organizes elements of data and standardizes how they relate to one another and to the properties of real-world entities. It describes the structure, manipulation, and integrity aspects of the data stored in data management systems such as relational databases.</b></p>
+  </body>
+</span>
+ 
 ---
 
 # Create Dimensional model from the datasets
+ <span style ="font-weight:400;font-size:17px">
+<body>
+    <p><b> Dimensional model is a data structure technique optimized for data storage in a Data warehouse. The purpose of dimensional modeling is to optimize the database for faster retrieval of data. Each dimensional model consists of many fact tables, with each fact table joined with corresponding dimension tables.</b></p>
+  </body>
+</span>
+ 
+![image](https://github.com/DURGESH99P/DataEngineering-Projects/assets/94096617/652c34c5-bddf-4a2b-bddd-eb56b0467854)
 
 
-```python
-
-```
 
 ---
 
@@ -2560,8 +2564,8 @@ IGNOREHEADER 1
 
 ## Below Image shows the query is successful in creating the tables inside the Redshift cluster database
 
+![script added tables to redshift](https://github.com/DURGESH99P/DataEngineering-Projects/assets/94096617/8ce7825e-010b-438e-ab85-0869ed3e865f)
 
-![script![script added tables to redshift](https://github.com/DURGESH99P/DataEngineering-Projects/assets/94096617/8ce7825e-010b-438e-ab85-0869ed3e865f)
 
 <span style ="font-weight:400;font-size:17px">
 <body>
@@ -2569,23 +2573,8 @@ IGNOREHEADER 1
   </body>
 </span> 
 
-<html>
-<head>
-<style>
-footer {
-  text-align: center;
-  padding: 3px;
-  background-color: DarkSalmon;
-  color: white;
-}
-</style>
-</head>
-<body>
 
-<footer>
-  <p>Author: Durgesh Patil<br>
-  <a href="mailto:amolsp1999@gmail.com">amolsp1999@gmail.com</a></p>
+<footer style= "text-align: center;">
+    <p>Author: Durgesh Patil<br>
+    <a href="mailto:amolsp1999@gmail.com">amolsp1999@gmail.com</a></p>
 </footer>
-
-</body>
-</html>
