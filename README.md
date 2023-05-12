@@ -2,6 +2,10 @@
 
 <hr style="border: 0.001px solid black">
 
+<body>
+    <p style ="font-weight:400;font-size:17px"><b>This Project demonstrates the complete process of creating Redshift datawarehouse for Covid-19 data which can be further expanded by using BI tools for Datavisualization and Dashboarding.  </b></p>
+  </body>
+
 # The Architecture  👇
 
 ![DE project architecrure diagram](https://github.com/DURGESH99P/DataEngineering-Projects/assets/94096617/0af7fe22-a250-41f3-a786-4257122964bc)
