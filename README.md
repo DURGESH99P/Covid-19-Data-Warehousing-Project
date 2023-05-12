@@ -1,4 +1,4 @@
-<h1 style="text-align:center;font-family:'Times New Roman';color:darkblue;font-weight:700;font-size:40px"> Covid-19 Data Engineering Project </h1>
+<h1 style="text-align:center;font-family:'Times New Roman';color:darkblue;font-weight:700;font-size:40px"> Covid-19 Data Warehousing Project </h1>
 
 <hr style="border: 0.001px solid black">
 
